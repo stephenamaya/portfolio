@@ -198,18 +198,19 @@ footer {
   position: fixed;
 }
 
-.bye-footer{
+.icon-footer{
+  padding: 10vh 0;
   text-align: center;
   cursor: url("./images/mouse-two.cur"), auto;
 }
 
-.bye-footer img{
+.icon-footer img{
   padding: 0px 20px;
   filter: invert(.60);
   cursor: url("./images/mouse-two.cur"), auto;
 }
 
-.bye-footer img:hover{
+.icon-footer img:hover{
   filter: invert(1);
 }
 
