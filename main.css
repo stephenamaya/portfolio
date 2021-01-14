@@ -29,7 +29,7 @@ body {
   font-size: 100%;
   scroll-behavior: smooth;
   cursor: url("./images/mouse-one.cur"), auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   -ms-overflow-style: none;
   text-decoration: none;
 }
@@ -42,8 +42,7 @@ body {
 /***************************/
 
 h1,h2,h3,p,a{
-  font-family: 'Courier Prime', monospace;
-  font-weight: lighter;
+  font-weight: 100;
   color: white;
 }
 
@@ -55,6 +54,7 @@ h1 {
 
 }
 h2 {
+  color:#ffc86f;
   font-size: 1.6rem;
   font-weight: 300;
   margin-top: 0;
@@ -76,6 +76,10 @@ a,p {
   text-decoration: none;
 }
 
+span{
+  color: rgb(180, 180, 180);
+}
+
 
 /***************************/
 /*****  3.0 Hero   *********/
@@ -86,11 +90,12 @@ header {
 }
 
 header img {
+  margin-top: 2vh;
   width: 80%;
   border-radius: 35px 5px 5px 5px;
   max-width: 600px;
-  -webkit-box-shadow: 15px 15px 0px -1px #ffbb4e;
-  box-shadow: 15px 15px 0px -1px #ffbb4e;
+  -webkit-box-shadow: 15px 15px 0px -1px #ffc86f;
+  box-shadow: 15px 15px 0px -1px #ffc86f;
 }
 
 /***************************/
@@ -149,7 +154,7 @@ nav a {
 }
 
 nav img{
-  max-width: 30px;
+  max-width: 40px;
 }
 
 nav img:hover{
@@ -171,7 +176,7 @@ nav img:hover{
   background-color: #1d7874;
 }
 .two {
-  background-color: #ffbb4e;
+  background-color: #ffc86f;
 }
 
 
@@ -180,7 +185,7 @@ footer {
   width: 100%;
   position: fixed;
   height: 4px;
-  background-color: #ffbb4e;
+  background-color: #ffc86f;
 }
 
 .icon-footer{
@@ -287,7 +292,7 @@ user-select: none;
   z-index: 10;
   position: absolute;
   font-size: 2.5em;
-  color: #ffbb4e;
+  color: #ffc86f;
   font-weight: bold;
   cursor: url("./images/mouse-two.cur"), auto;
 }
@@ -301,7 +306,7 @@ user-select: none;
   width: 100%;
   position: fixed;
   height: 4px;
-  background-color: #ffbb4e;
+  background-color: #ffc86f;
 }
 
 .space{
@@ -346,7 +351,7 @@ body{
 .button {
   border-style:solid;
   border-width: thin;
-  border-color: #ffbb4e;
+  border-color: #ffc86f;
   cursor: url("./images/mouse-two.cur"), auto;
   font-weight: 500;
   border-radius: 5px 5px 5px 5px;
@@ -373,10 +378,11 @@ body{
 @media only screen and (max-width: 900px) {
 
   header img {
-    width: 70%;
+    margin-top: 5vh;
+    width: 90%;
     border-radius: 25px 5px 5px 5px;
-    -webkit-box-shadow: 10px 10px 0px -1px #ffbb4e;
-    box-shadow: 10px 10px 0px -1px #ffbb4e;
+    -webkit-box-shadow: 10px 10px 0px -1px #ffc86f;
+    box-shadow: 10px 10px 0px -1px #ffc86f;
   }
 
   nav a {
@@ -384,10 +390,10 @@ body{
   }
   
   nav{
-    background-color: #2f373a;
+    background-color: #1a1a1a;
   }
   nav img{
-    max-width: 25px;
+    max-width: 30px;
   }
 
   .exit-lightbox {
