@@ -262,7 +262,7 @@ user-select: none;
   position: fixed;
   top: 0%;
   left: 0%;
-  background: #1a1a1a;
+  background: #201f1e;
   z-index: 4;
   overflow: auto;
   overflow-x: hidden;
@@ -321,7 +321,7 @@ body{
 }
 
 .color{
-  background-color:#1a1a1a;
+  background-color:#201f1e;
 }
 
 .arrow-dark {
@@ -331,7 +331,7 @@ body{
   height: 0;
   border-style: solid;
   border-width: 40px 50px 0px 50px;
-  border-color: #1a1a1a transparent;
+  border-color: #201f1e transparent;
 }
 
 .arrow-light{
